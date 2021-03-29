@@ -1,0 +1,61 @@
+let btn = document.getElementById('generate');
+        btn.addEventListener('click', () => {
+          var sel_a_b=0;
+          let rates1 = document.getElementsByName('letter');
+          rates1.forEach((rate1) => {
+                if (rate1.checked) {                   
+                  if (rate1.value=="a"||rate1.value=="b"||rate1.value=="d"||rate1.value=="e"){                    
+                    document.getElementById("block1").style.display="block";                    
+                  }
+                  if (rate1.value=="c"){
+                    document.getElementById("block2").style.display="block";
+                  }
+                  if(rate1.value=="a"||rate1.value=="b"){
+                    sel_a_b=1;
+                  }              
+                }
+            });
+          let rates2 = document.getElementsByName('letter2');
+            rates2.forEach((rate2) => {
+                if (rate2.checked) {                   
+                  if (rate2.value=="g"||rate2.value=="h"){                  
+                    if(sel_a_b != 1){
+                      document.getElementById("block3").style.display="block";
+                    }else{
+                      document.getElementById("block4").style.display="block";
+                    }                    
+                  }                  
+                }
+            });
+          let rates3 = document.getElementsByName('letter3');
+            rates3.forEach((rate3) => {
+                if (rate3.checked) {                   
+                  if (rate3.value=="j"){                    
+                    if(sel_a_b != 1){
+                      document.getElementById("block5").style.display="block";
+                    }else{
+                      document.getElementById("block6").style.display="block";
+                    }                    
+                  }                  
+                }
+            });
+          let rates4 = document.getElementsByName('letter4');
+            rates4.forEach((rate4) => {
+                if (rate4.checked) {                   
+                  if (rate4.value=="l"){ 
+                      document.getElementById("block7").style.display="block";
+                    }
+                  if (rate4.value=="m"||rate4.value=="n"){
+                      document.getElementById("block8").style.display="block";
+                    }                    
+                  }                  
+                });           
+          let rates5 = document.getElementsByName('letter5');
+            rates5.forEach((rate5) => {
+                if (rate5.checked) {                   
+                  if (rate5.value=="p"||rate5.value=="q"){ 
+                      document.getElementById("block9").style.display="block";
+                    }                                   
+                  }                  
+                });
+        });

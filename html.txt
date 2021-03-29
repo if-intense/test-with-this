@@ -1,0 +1,70 @@
+<a href="https://res.cloudinary.com/rfujiwar23/image/upload/v1608709172/possible_or_not.png" target="_blank">What I am trying to accomplish (in png image)</a>
+
+<section>
+    <p>Select a letter.</p>
+    <br>
+      <input type="radio" name="letter" id="a" value="a">a<br>
+      <input type="radio" name="letter" id="b" value="b">b<br>
+      <input type="radio" name="letter" id="c" value="c">c<br>
+      <input type="radio" name="letter" id="d" value="d">d<br>
+      <input type="radio" name="letter" id="d" value="e">e<br>
+    <br>
+  </section>
+
+  <hr>
+
+  <section>
+    <p>Select a letter.</p>
+    <br>
+      <input type="radio" name="letter2" id="f" value="f">f<br>
+      <input type="radio" name="letter2" id="g" value="g">g<br>
+      <input type="radio" name="letter2" id="h" value="h">h<br>
+    <br>
+  </section>
+
+  <hr>
+
+  <section>
+    <p>Select a letter.</p>
+    <br>
+      <input type="radio" name="letter3" id="i" value="i">i<br>
+      <input type="radio" name="letter3" id="j" value="j">j<br>
+    <br>
+  </section>
+
+  <hr>
+
+  <section>
+    <p>Select a letter.</p>
+    <br>
+      <input type="radio" name="letter4" id="k" value="k">k<br>
+      <input type="radio" name="letter4" id="l" value="l">l<br>
+      <input type="radio" name="letter4" id="m" value="m">m<br>
+      <input type="radio" name="letter4" id="n" value="n">n<br>
+    <br>
+  </section>
+
+<hr>
+
+  <section>
+    <p>Select a letter.</p>
+    <br>
+      <input type="radio" name="letter5" id="o" value="o">o<br>
+      <input type="radio" name="letter5" id="p" value="p">p<br>
+      <input type="radio" name="letter5" id="q" value="q">q<br>
+    <br>
+  </section>
+
+<hr>
+
+<button id="generate" type="button">Submit</button>
+
+<div id="block1" style="display:none">Sleeping Pill</div>
+<div id="block2" style="display:none">Toothbrush</div>
+<div id="block3" style="display:none">Tooth Paste</div>
+<div id="block4" style="display:none">Foot Massage</div>
+<div id="block5" style="display:none">Diet Pill</div>
+<div id="block6" style="display:none">Eye Drop</div>
+<div id="block7" style="display:none">Medicinal Marijuana</div>
+<div id="block8" style="display:none">Vitamins</div>
+<div id="block9" style="display:none">Herb Tea</div>
